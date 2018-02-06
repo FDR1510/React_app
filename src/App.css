@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  margin-bottom: 0px;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 1s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: lightblue;
+  height: 275px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 0px;
+
+}
+ .subheading {
+   color: black;
+   background-color: lightgrey;
+   padding: 10px;
+   margin-bottom: 0;
+   margin-top: -20px;
+
+ }
+
+.App-nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  margin-bottom: 0px;
+}
+
+div.App-header.jumbotron {
+  margin-bottom: 0;
+  background-color: lightblue;
+
+}
+.ninja{
+  animation: ninja-spin infinite 1s linear;
+
+
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  width: 70%;
+  margin: 0 auto;
+  font-family: garamond;
+
+
+}
+
+.background {
+  background-image: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/5c/q9/p05cq9pg.jpg");
+  height: 100vh;
+  background-size: cover;
+
+}
+
+.buttonbar {
+  /* margin: 20px;
+  padding: 20px; */
+
+}
+
+div.buttonbar {
+
+  margin: 0 auto;
+  width: 70%;
+}
+
+Button {
+  padding: 20px;
+  margin: 0 auto;
+
+}
+
+@keyframes ninja-spin{
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
